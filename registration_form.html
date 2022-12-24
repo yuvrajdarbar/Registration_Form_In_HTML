@@ -11,38 +11,72 @@
     <form action="#" method="POST">
         <fieldset>
             <legend>Personal Details</legend>
-             <lable>First Name:</lable>
-             <input type="text" name="fname" id="fname" placeholder="Enter your first name"><br><br>
-             <lable>Last Name:</lable>
-             <input type="text" name="lname" id="lname" placeholder="Enter your last name"><br><br>
-             <lable>Gender:</lable>
-             <input type="radio" name="gender" value="male"> Male
-             <input type="radio" name="gender" value="female"> Female<br><br>
-             <lable>Date of Birth:</lable>
-             <input type="date" name="dofb" id="dofb"><br><br>
-             <lable>Email:</lable>
-             <input type="email" name="email" id="email" placeholder="Enter your email Id"><br><br>
-             <lable>Password:</lable>
-             <input type="password" name="password" id="password" placeholder="Enter your password"><br><br>
-             <lable>Mobile Number:</lable>
-             <input type="text" name="mobile" id="mobile" placeholder="Enter your mobile number"><br><br>
-             <lable>Select City:</lable>
-             <select name="city">
-                <option>Select city</option>
-                <option>Surat</option>
-                <option>Baroda</option>
-                <option>Ahmedabad</option>
-                <option>Rajkot</option>
-                <option>Jamnagar</option>
-             </select><br><br>
-             <lable>Address:</lable>
-             <textarea name="address" rows="4" cols="20"></textarea><br><br>
-             <lable>Hobby:</lable>
-             <input type="checkbox" name="hobby1" value="Cricket">Cricket
-             <input type="checkbox" name="hobby2" value="Reading">Reading
-             <input type="checkbox" name="hobby3" value="Other">Other <br><br>
-             <input type="submit" name="Submit" value="Submit">
-             <input type="Reset" name="reset" value="Reset">
+            <table>
+                <tr>
+                    <td><lable>First Name</lable></td>
+                    <td>:</td>
+                    <td><input type="text" name="fname" id="fname" placeholder="Enter your first name"><br></td>
+                </tr>
+                <tr>
+                    <td><lable>Last Name</lable></td>
+                    <td>:</td>
+                    <td><input type="text" name="lname" id="lname" placeholder="Enter your last name"><br></td>
+                </tr>
+                <tr>
+                    <td><lable>Gender</lable></td>
+                    <td>:</td>
+                    <td><input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female<br></td>
+                </tr>
+                <tr>
+                    <td><lable>Date of Birth</lable></td>
+                    <td>:</td>
+                    <td><input type="date" name="dofb" id="dofb"><br></td>
+                 </tr>
+                 <tr>
+                     <td><lable>Email</lable></td>
+                     <td>:</td>
+                     <td><input type="email" name="email" id="email" placeholder="Enter your email Id"><br></td>
+                 </tr>
+                 <tr>
+                    <td><lable>Password</lable></td>
+                    <td>:</td>
+                    <td><input type="password" name="password" id="password" placeholder="Enter your password"><br></td>
+                 </tr>
+                 <tr>
+                    <td><lable>Mobile Number</lable></td>
+                    <td>:</td>
+                     <td><input type="text" name="mobile" id="mobile" placeholder="Enter your mobile number"><br></td>
+                 </tr>
+                 <tr>
+                     <td><lable>Select City</lable></td>
+                     <td>:</td>
+                     <td><select name="city">
+                     <option>Select city</option>
+                     <option>Surat</option>
+                     <option>Baroda</option>
+                     <option>Ahmedabad</option>
+                      <option>Rajkot</option>
+                     <option>Jamnagar</option>
+                     </select><br></td>
+                 </tr>
+                 <tr>
+                     <td><lable>Address</lable></td>
+                     <td>:</td>
+                     <td><textarea name="address" rows="4" cols="20"></textarea><br></td>
+                </tr>
+                <tr>
+                     <td><lable>Hobby</lable></td>
+                     <td>:</td>
+                     <td><input type="checkbox" name="hobby1" value="Cricket">Cricket
+                     <input type="checkbox" name="hobby2" value="Reading">Reading
+                     <input type="checkbox" name="hobby3" value="Other">Other <br></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="submit" name="Submit" value="Submit">
+                    <input type="Reset" name="reset" value="Reset"></td>
+                </tr>
+            </table>
         </fieldset> 
     </form>
 </body>
